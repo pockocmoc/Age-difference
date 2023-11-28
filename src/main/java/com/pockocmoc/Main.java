@@ -10,7 +10,7 @@ public class Main {
 		AgeCalculator ageCalculator = new AgeCalculator();
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Программа возращает разницу в возрасте между людьми.");
+		System.out.println("Программа возвращает разницу в возрасте между людьми.");
 		System.out.println("Введите возраст 1 го человека(в формате: дд мм гггг): ");
 		String ageOne = scanner.nextLine();
 		LocalDate oneUserAge = ageCalculator.parseDate(ageOne);
